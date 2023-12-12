@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hello World 大冒險</title><link>https://huihsiang2392.github.io/</link><description>Recent content on Hello World 大冒險</description><generator>Hugo -- gohugo.io</generator><language>zn-tw</language><lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://huihsiang2392.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>程式設計簡介</title><link>https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/</link><pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate><guid>https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/</guid><description>&lt;h2 id="程式設計步驟">程式設計步驟&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>需求認識&lt;/p>
+&lt;p>了解程式所要解決的問題是什麼，並且搜集所要提供的輸入資訊與可能得到的輸出結果&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>設計規劃&lt;/p>
+&lt;p>根據需求，選擇適合的資料結構，並以任何的表示方式寫一個演算法以解決問題&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>分析討論&lt;/p>
+&lt;p>思考其他可能適合的演算法及資料結構，最後再選出最適當的標的&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>編寫程式&lt;/p>
+&lt;p>把分析的結論，利用程式語言寫成初步的程式碼&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>測試檢驗&lt;/p>
+&lt;p>最後必須確認程式的輸出是否符合需求，這個步驟得細部的執行程式並許多相關測試與除錯&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="注意事項">注意事項&lt;/h2>
+&lt;ul>
+&lt;li>適當的縮排&lt;/li>
+&lt;li>明確的註解&lt;/li>
+&lt;li>有意義的命名&lt;/li>
+&lt;li>Debug
+&lt;ul>
+&lt;li>語法錯誤(無法編譯)&lt;/li>
+&lt;li>邏輯錯誤(可編譯，結果無法預期)&lt;/li>
+&lt;li>執行期間錯誤&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="結構化程式設計">結構化程式設計&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>循序結構&lt;/p>
+&lt;p>逐步的撰寫敘述&lt;/p>
+&lt;p>&lt;img src="https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/1.png"
+width="554"
+height="324"
+srcset="https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/1_huc16221750770ed0e3a6f91a4845e6869_17244_480x0_resize_box_3.png 480w, https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/1_huc16221750770ed0e3a6f91a4845e6869_17244_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="循序結構"
+class="gallery-image"
+data-flex-grow="170"
+data-flex-basis="410px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>選擇結構&lt;/p>
+&lt;p>依某些條件做邏輯判斷&lt;/p>
+&lt;p>&lt;img src="https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/2.png"
+width="554"
+height="325"
+srcset="https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/2_hu8062978363617b668e2322c5aa925b35_24030_480x0_resize_box_3.png 480w, https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/2_hu8062978363617b668e2322c5aa925b35_24030_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="選擇結構"
+class="gallery-image"
+data-flex-grow="170"
+data-flex-basis="409px"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>重複結構&lt;/p>
+&lt;p>依某些條件決定是否重複執行某些敘述&lt;/p>
+&lt;p>&lt;img src="https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/3.png"
+width="554"
+height="324"
+srcset="https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/3_hu487fca2ee1db1c95f4ba55a5077f8d98_21654_480x0_resize_box_3.png 480w, https://huihsiang2392.github.io/p/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E7%B0%A1%E4%BB%8B/3_hu487fca2ee1db1c95f4ba55a5077f8d98_21654_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="重複結構"
+class="gallery-image"
+data-flex-grow="170"
+data-flex-basis="410px"
+>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="物件導向程式設計-oop">物件導向程式設計 OOP&lt;/h2></description></item><item><title>Archives</title><link>https://huihsiang2392.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://huihsiang2392.github.io/archives/</guid><description/></item><item><title>Search</title><link>https://huihsiang2392.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://huihsiang2392.github.io/search/</guid><description/></item></channel></rss>
